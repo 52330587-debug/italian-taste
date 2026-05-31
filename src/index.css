@@ -238,3 +238,28 @@ form button {
   color: #555;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .info-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
