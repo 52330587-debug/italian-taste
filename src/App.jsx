@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Menu from './pages/menu';
-import About from './pages/About';
-import Reservation from './pages/Reservation';
+import About from './pages/about';
+import Reservation from './pages/reservation';
 import './index.css';
 
 function App() {
